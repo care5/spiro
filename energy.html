@@ -21,7 +21,7 @@
 
   <header class="site-header" id="header">
     <div class="nav-inner">
-      <a href="index.html" class="logo">spiro <span></span></a>
+      <a href="index.html" class="logo">spiro <span class="power"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="14" r="6" stroke="currentColor" stroke-width="2"/><path d="M12 4v6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span></a>
       <nav class="nav-links">
         <a href="ekon.html">Ekon 450M1</a>
         <a href="energy.html" class="active">Swap Network</a>
@@ -37,12 +37,25 @@
         </div>
       </nav>
       <a href="#book" class="btn-outline">Book test ride</a>
-      <button class="mobile-toggle">☰</button>
+      <button class="mobile-toggle" id="menuToggle" aria-label="Menu"><span></span><span></span><span></span></button>
     </div>
   </header>
 
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="ekon.html">Ekon 450M1</a>
+    <a href="energy.html">Swap Network</a>
+    <a href="technology.html">Technology</a>
+    <a href="index.html#support">Support</a>
+    <a href="index.html#news">News</a>
+    <a href="index.html#esg">Sustainability</a>
+    <a href="tel:+254104076565">Call +254 104 076 565</a>
+    <a href="https://wa.me/254104076565" target="_blank" rel="noopener">WhatsApp us</a>
+    <a href="#book" class="btn-primary">Book test ride</a>
+  </div>
+
   <!-- Hero -->
-  <section class="hero" style="min-height:70vh;background:#0f0f10">
+  <section class="hero" style="min-height:70vh;background-image:url('https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&w=1920&q=80'); background-size:cover; background-position:center;">
     <div class="hero-content">
       <h1>Battery Swap Network</h1>
       <p>Swap in under 2 minutes. Pay. Ride. The energy network that keeps Africa’s commercial riders moving.</p>
@@ -208,5 +221,6 @@
       document.getElementById('header').classList.toggle('scrolled', window.scrollY > 20);
     });
   </script>
+<script src="js/main.js"></script>
 </body>
 </html>

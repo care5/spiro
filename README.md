@@ -1,73 +1,52 @@
 # Spiro Website (Structural Clone)
 
-Multi-page static website that follows the **structure, flow, design system and layout** of [spironet.com](https://www.spironet.com/).
+Multi-page static website matching the **structure, flow, colors and layout style** of [spironet.com](https://www.spironet.com/).
 
-Built for learning / portfolio / local demonstration purposes.
+## Brand colors used (from public brand data)
+
+| Token | Hex | Use |
+|-------|-----|-----|
+| Accent / CTA blue | `#3038FC` | Primary buttons, links |
+| Soft background | `#F6F4EE` | Cards, sections |
+| Red accent | `#B91C1C` | Product accents |
 
 ## Contact
 
 - **Call:** [+254 104 076 565](tel:+254104076565)
-- **WhatsApp:** [Chat on WhatsApp](https://wa.me/254104076565)
+- **WhatsApp:** [https://wa.me/254104076565](https://wa.me/254104076565)
+
+## Working features
+
+- Sticky header + working **3-line mobile menu** (hamburger)
+- All main navigation links
+- Call & WhatsApp buttons on every page (CTA + footer + mobile menu)
+- Savings slider on home
+- Responsive layout
 
 ## Pages
 
-| Page | File |
-|------|------|
-| Home | `index.html` |
-| Ekon 450M1 (product) | `ekon.html` |
-| Swap Network | `energy.html` |
-| Technology | `technology.html` |
+- `index.html` – Home
+- `ekon.html` – Ekon 450M1 product
+- `energy.html` – Swap Network
+- `technology.html` – Technology
 
-## Features
-
-- Consistent sticky header + country banner
-- Call & WhatsApp buttons on every page (CTA + footer)
-- Responsive layout
-- Shared design system (CSS variables, cards, buttons, stats, ownership cards)
-- Savings calculator on home page
-
-## How to run locally
-
-Open `index.html` in a browser, or serve the folder:
+## How to run
 
 ```bash
-# Python
+# Open index.html in a browser, or:
 python -m http.server 8080
-
-# Node
-npx serve .
+# then http://localhost:8080
 ```
 
-Then open http://localhost:8080
+## GitHub Pages
 
-## Deploy to GitHub Pages
-
-1. Create a new repository on GitHub
-2. Push this folder as the root (or put the files in the root of the repo)
-3. Go to **Settings → Pages**
-4. Set source to `main` branch (root)
-5. Your site will be live at `https://<username>.github.io/<repo-name>/`
-
-## Project structure
-
-```
-spiro-clone/
-├── index.html
-├── ekon.html
-├── energy.html
-├── technology.html
-├── css/
-│   └── styles.css
-├── js/          (empty – reserved for future scripts)
-├── images/      (empty – add your product photos here)
-├── .gitignore
-└── README.md
-```
+1. Create repo → push these files to the root
+2. Settings → Pages → Source: `main` / root
 
 ## Notes
 
-- This is a **structural recreation**. Real Spiro photography, exact brand assets, live maps and complex interactions are not included.
-- Replace CSS bike placeholders with real images when available.
-- Forms currently show a simple alert – connect them to a backend or form service as needed.
+- This is a **structural + visual recreation** for learning / demo use.
+- Hero backgrounds use public Unsplash photos in a similar style (city / mobility / tech). Original Spiro product photography is copyrighted and is **not** copied.
+- Replace images in `images/` or update the CSS `background-image` URLs with your own assets when ready.
 
-Inspired by the public structure of spironet.com.
+Inspired by the public structure and brand colors of spironet.com.
