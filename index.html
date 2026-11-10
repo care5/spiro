@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spiro – Energy on the Move | The smarter way to ride and earn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Country banner -->
+  <div class="country-banner">
+    <div class="left">Choose your country to see prices, range and service centres for your location.</div>
+    <div class="right">
+      <div class="country-select">
+        <span>🇰🇪</span> Kenya
+      </div>
+      <button class="btn-dark-sm">Continue</button>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="header">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">spiro <span></span></a>
+      <nav class="nav-links">
+        <a href="ekon.html">Ekon 450M1</a>
+        <a href="energy.html">Swap Network</a>
+        <a href="technology.html">Technology</a>
+        <div class="nav-dropdown">
+          <button>About us ▾</button>
+          <div class="nav-dropdown-menu">
+            <a href="#leadership">Our Team</a>
+            <a href="#news">News</a>
+            <a href="#support">Support</a>
+            <a href="#esg">Sustainability</a>
+            <a href="#trust">Trust Centre</a>
+          </div>
+        </div>
+      </nav>
+      <a href="#book" class="btn-outline">Book test ride</a>
+      <button class="mobile-toggle" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>The smarter way<br>to ride and earn</h1>
+      <p>The electric motorcycle built for Africa’s commercial riders.</p>
+      <a href="ekon.html" class="btn-primary">Know More →</a>
+    </div>
+    <div class="hero-bikes">
+      <div class="bike-placeholder red"></div>
+      <div class="bike-placeholder green"></div>
+    </div>
+  </section>
+
+  <!-- Driving the EV revolution -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>Spiro is Driving the EV revolution in Africa</h2>
+      </div>
+      <div class="stats-row">
+        <div class="stat-item">
+          <h3>2.55B+</h3>
+          <p>Kilometres Driven</p>
+        </div>
+        <div class="stat-item">
+          <h3>185.8K</h3>
+          <p>Tonnes of CO₂ Saved</p>
+        </div>
+        <div class="stat-item">
+          <h3>102.7 GWh</h3>
+          <p>Energy Distributed</p>
+        </div>
+        <div class="stat-item">
+          <h3>48.5M+</h3>
+          <p>Battery Swaps</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The bike that pays you -->
+  <section class="section bg-soft">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>The bike that pays you back</h2>
+        <p>Every kilometre costs less. Every day earns more.</p>
+      </div>
+      <div class="specs-strip">
+        <div class="spec">
+          <strong>100 km</strong>
+          <span>Range per swap</span>
+        </div>
+        <div class="spec">
+          <strong>90 km/h</strong>
+          <span>Top Speed</span>
+        </div>
+        <div class="spec">
+          <strong>12 kW</strong>
+          <span>Peak Power</span>
+        </div>
+        <div class="spec">
+          <strong>300 kg</strong>
+          <span>Load Capacity</span>
+        </div>
+      </div>
+      <div class="text-center mt-8">
+        <a href="ekon.html" class="btn-primary">Explore EKON →</a>
+        <p style="margin-top:16px;font-size:13px;color:var(--text-muted)">Specifications are indicative and tested under standard test conditions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Savings calculator teaser -->
+  <section class="section">
+    <div class="section-inner text-center">
+      <h2 style="margin-bottom:12px">Ride more, save more!</h2>
+      <p style="color:var(--text-muted);margin-bottom:32px">Compare the cost of Spiro against a petrol bike.</p>
+      <div style="max-width:420px;margin:0 auto;background:var(--bg-soft);border-radius:16px;padding:32px;">
+        <label style="display:block;text-align:left;font-size:14px;margin-bottom:8px;color:var(--text-muted)">How much do you ride each day?</label>
+        <input type="range" min="20" max="150" value="80" style="width:100%;margin-bottom:16px" id="kmSlider" />
+        <div style="font-size:1.5rem;font-weight:700;margin-bottom:8px"><span id="kmValue">80</span> km / day</div>
+        <div style="font-size:1.1rem;color:var(--accent);font-weight:600">Extra savings when you ride daily with Spiro!</div>
+        <div style="margin-top:12px;font-size:1.4rem;font-weight:700">KES <span id="savings">~ 28,000</span> Extra Saved / year</div>
+        <div style="margin-top:24px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+          <a href="#" class="btn-outline">Full Breakdown →</a>
+          <a href="#book" class="btn-primary">Book Test Ride →</a>
+        </div>
+      </div>
+      <p style="margin-top:16px;font-size:12px;color:var(--text-muted)">Indicative figures based on typical rider usage. Actual savings vary by city, route, and financing path.</p>
+    </div>
+  </section>
+
+  <!-- Largest EV Ecosystem -->
+  <section class="section bg-soft">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>Largest EV Ecosystem in Africa</h2>
+      </div>
+      <div class="stats-row" style="max-width:800px;margin:0 auto">
+        <div class="stat-item">
+          <h3>69</h3>
+          <p>Swap Stations</p>
+        </div>
+        <div class="stat-item">
+          <h3>9+</h3>
+          <p>Dealership Network</p>
+        </div>
+        <div class="stat-item">
+          <h3>25+</h3>
+          <p>Service Centres</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Engineered for daily earning -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>Engineered for daily earning</h2>
+        <p>Built to handle the roads, loads, and hours that you demand.</p>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="icon">⚡</div>
+          <h3>Swap in under 2 minutes</h3>
+          <p>Swap. Pay. Ride. Swapping with Spiro as easy as 1..2..3..</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">🛣</div>
+          <h3>Handles tough roads and heavy use</h3>
+          <p>Strong frame, better grip, and built for daily rider load.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">📍</div>
+          <h3>Track your bike at all times</h3>
+          <p>Live visibility of your bike’s location & performance on demand.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">📦</div>
+          <h3>Carries passengers and cargo with ease</h3>
+          <p>Designed for boda rides, delivery, and long working hours.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ownership -->
+  <section class="section bg-soft" id="ownership">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>Start saving right from the first day</h2>
+        <p>Flexible ownership paths designed around how riders actually earn.</p>
+      </div>
+      <div class="ownership-grid">
+        <div class="ownership-card highlight">
+          <h3>Lease to own</h3>
+          <div class="price">KES 200 <small>/Day</small></div>
+          <p>No large upfront payment required!</p>
+          <a href="#book" class="btn-primary">Apply →</a>
+        </div>
+        <div class="ownership-card">
+          <h3>Pay upfront</h3>
+          <div class="price">Full price</div>
+          <p>Own it outright from day one.</p>
+          <a href="#book" class="btn-outline">Learn more</a>
+        </div>
+        <div class="ownership-card">
+          <h3>Fleet Purchase</h3>
+          <div class="price">Volume</div>
+          <p>Special pricing for operators & fleets.</p>
+          <a href="#book" class="btn-outline">Contact sales</a>
+        </div>
+      </div>
+      <p class="text-center mt-8" style="font-size:13px;color:var(--text-muted)">Our financing partners: Huduma · M-KOPA · KCB · Subject to approval by leasing partners</p>
+    </div>
+  </section>
+
+  <!-- Support -->
+  <section class="section" id="support">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>Support that keeps you moving</h2>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>Service centres across every city</h3>
+          <p>Authorised service, always on your route.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Report issues and track in-app</h3>
+          <p>Raise a request, follow its status, and get updates — without calling anyone.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Genuine spare parts, always in stock</h3>
+          <p>Authorised components, available at every service centre.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technology teaser -->
+  <section class="section bg-soft">
+    <div class="section-inner text-center">
+      <h2 style="margin-bottom:12px">Real riders. Real numbers.</h2>
+      <p style="color:var(--text-muted);max-width:560px;margin:0 auto 32px">From the rider app to the systems behind every swap, Spiro technology keeps working even when power, signal or payments don’t.</p>
+      <div class="feature-grid" style="max-width:900px;margin:0 auto 32px">
+        <div class="feature-card"><h3>Spiro App</h3></div>
+        <div class="feature-card"><h3>Spiro IoT</h3></div>
+        <div class="feature-card"><h3>Spiro Maps</h3></div>
+        <div class="feature-card"><h3>CredTrack</h3></div>
+      </div>
+      <a href="technology.html" class="btn-primary">Explore Spiro’s technology →</a>
+    </div>
+  </section>
+
+  <!-- Impact / ESG -->
+  <section class="section" id="esg">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>Spiro is building more than electric bikes…</h2>
+        <p>…it is building a sustainable ecosystem across Africa</p>
+      </div>
+      <div class="stats-row">
+        <div class="stat-item"><h3>9</h3><p>Countries</p></div>
+        <div class="stat-item"><h3>80,000+</h3><p>Bikes on the road</p></div>
+        <div class="stat-item"><h3>TIME 100</h3><p>Most Influential Company 2024</p></div>
+        <div class="stat-item"><h3>E-Mobility</h3><p>Company of the Year Kenya 2025</p></div>
+      </div>
+      <div class="text-center mt-8">
+        <a href="#" class="btn-outline">Learn more →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Built for African roads -->
+  <section class="section bg-soft">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>Built for African roads, by African teams</h2>
+        <p>We are building more than electric bikes. Our teams tune them for African roads and real daily use, while building the infrastructure that powers mobility at scale.</p>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>Battery systems tuned for real routes and load</h3>
+        </div>
+        <div class="feature-card">
+          <h3>Scaling locally, city by city infrastructure</h3>
+        </div>
+        <div class="feature-card">
+          <h3>Tested for real-world conditions and usage</h3>
+        </div>
+        <div class="feature-card">
+          <h3>Continuously improving from rider data</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- News teaser -->
+  <section class="section" id="news">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>News & Blogs</h2>
+        <a href="#" style="font-size:15px;color:var(--accent)">View All →</a>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <p style="font-size:13px;color:var(--text-muted);margin-bottom:8px">CNN · Jul 7, 2026</p>
+          <h3>Spiro capitalizing on higher EV demand in Africa</h3>
+          <a href="#" style="color:var(--accent);font-size:14px;margin-top:12px;display:inline-block">Read More →</a>
+        </div>
+        <div class="feature-card">
+          <p style="font-size:13px;color:var(--text-muted);margin-bottom:8px">Evreporter · Jul 9, 2026</p>
+          <h3>100,000 swaps a day — and counting: Inside SPIRO’s plan to electrify Africa’s roads</h3>
+          <a href="#" style="color:var(--accent);font-size:14px;margin-top:12px;display:inline-block">Read More →</a>
+        </div>
+        <div class="feature-card">
+          <p style="font-size:13px;color:var(--text-muted);margin-bottom:8px">Spiro · Sep 25, 2026</p>
+          <h3>Spiro strengthens leadership team with appointment of Ram Ramanathan as Group CFO</h3>
+          <a href="#" style="color:var(--accent);font-size:14px;margin-top:12px;display:inline-block">Read More →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="cta-band" id="book">
+    <h2>Ready to make the switch?</h2>
+    <p>Call or WhatsApp us, or leave your number and we’ll get in touch</p>
+    <div class="contact-actions">
+      <a href="tel:+254104076565" class="btn-call">📞 Call +254 104 076 565</a>
+      <a href="https://wa.me/254104076565" class="btn-whatsapp" target="_blank" rel="noopener">💬 WhatsApp us</a>
+    </div>
+    <form class="cta-form" style="margin-top:28px" onsubmit="event.preventDefault(); alert('Thank you! We will contact you soon.');">
+      <input type="tel" placeholder="+254 7XX XXX XXX" required />
+      <button type="submit" class="btn-primary">I’m Interested</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo">spiro <span></span></div>
+        <p>Africa’s largest EV company & battery swapping network. Accelerating affordable, clean energy technology in mobility.</p>
+        <div class="footer-contact">
+          <a href="tel:+254104076565">📞 +254 104 076 565</a>
+          <a href="https://wa.me/254104076565" target="_blank" rel="noopener">💬 WhatsApp</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Products</h4>
+        <a href="ekon.html">Ekon 450 M1</a>
+        <a href="energy.html">Swap Network</a>
+      </div>
+      <div class="footer-col">
+        <h4>Ecosystem</h4>
+        <a href="technology.html">Technology</a>
+        <a href="#support">Support</a>
+        <a href="#esg">Sustainability</a>
+      </div>
+      <div class="footer-col">
+        <h4>About us</h4>
+        <a href="#leadership">Our Team</a>
+        <a href="#news">News</a>
+        <a href="#trust">Trust Centre</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Spiro. All rights reserved. This is a structural recreation for educational purposes.</span>
+      <span>Inspired by spironet.com</span>
+    </div>
+  </footer>
+
+  <script>
+    // Sticky header border
+    window.addEventListener('scroll', () => {
+      document.getElementById('header').classList.toggle('scrolled', window.scrollY > 20);
+    });
+
+    // Simple savings slider
+    const slider = document.getElementById('kmSlider');
+    const kmValue = document.getElementById('kmValue');
+    const savings = document.getElementById('savings');
+    if (slider) {
+      slider.addEventListener('input', () => {
+        const km = +slider.value;
+        kmValue.textContent = km;
+        // rough illustrative calc
+        const yearly = Math.round(km * 0.35 * 365);
+        savings.textContent = yearly.toLocaleString();
+      });
+    }
+  </script>
+</body>
+</html>
