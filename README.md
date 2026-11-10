@@ -1,52 +1,41 @@
-# Spiro Website (Structural Clone)
+# Spiro-inspired multi-page website
 
-Multi-page static website matching the **structure, flow, colors and layout style** of [spironet.com](https://www.spironet.com/).
+Static site modelled on the flow and structure of spironet.com (Home, Ekon 450M1, Swap Network, Technology).
 
-## Brand colors used (from public brand data)
-
-| Token | Hex | Use |
-|-------|-----|-----|
-| Accent / CTA blue | `#3038FC` | Primary buttons, links |
-| Soft background | `#F6F4EE` | Cards, sections |
-| Red accent | `#B91C1C` | Product accents |
-
-## Contact
-
-- **Call:** [+254 104 076 565](tel:+254104076565)
-- **WhatsApp:** [https://wa.me/254104076565](https://wa.me/254104076565)
-
-## Working features
-
-- Sticky header + working **3-line mobile menu** (hamburger)
-- All main navigation links
-- Call & WhatsApp buttons on every page (CTA + footer + mobile menu)
-- Savings slider on home
-- Responsive layout
+## Features
+- Shared header + footer, sticky nav
+- Working mobile hamburger menu (three lines)
+- Call: `tel:+254104076565`
+- WhatsApp: `https://wa.me/254104076565`
+- Brand colors: accent `#3038FC`, soft cream backgrounds (`#F6F4EE` / `#EFECE4`) — no pure white body
+- Product photos organised by Ekon colour (Blue, Red, Green, Black, Yellow, Silver)
+- Logo: `images/logo.jpg` (power-pin mark)
 
 ## Pages
+| File | Purpose |
+|------|---------|
+| `index.html` | Home — hero, stats, savings, ownership, photo gallery |
+| `ekon.html` | Ekon 450M1 product page + colour gallery |
+| `energy.html` | Swap network / energy |
+| `technology.html` | IoT, app, maps |
 
-- `index.html` – Home
-- `ekon.html` – Ekon 450M1 product
-- `energy.html` – Swap Network
-- `technology.html` – Technology
+## Images naming
+Photos are named systematically, for example:
+- `ekon-blue-hero.jpg`, `ekon-red-fleet.jpg`, `ekon-green-side.jpg`
+- `ekon-black-side-studio.jpg`, `ekon-yellow-expo.jpg`, `ekon-silver-m1v3.jpg`
+- `fleet-outdoor-colors.jpg`, `warehouse-packed.jpg`, `swap-batteries-booth.jpg`
+- `rider-woman-happy.jpg`, `factory-assembly.jpg`, `logo.jpg`
 
-## How to run
+Original WhatsApp filenames (`IMG-20261110-WA*.jpg`) are kept in `images/` as backups.
 
+## Run locally
+Open `index.html` in a browser, or:
 ```bash
-# Open index.html in a browser, or:
-python -m http.server 8080
-# then http://localhost:8080
+npx serve .
 ```
 
 ## GitHub Pages
+Push this folder to a repo and enable Pages on the root (or `/docs` if you move files there).
 
-1. Create repo → push these files to the root
-2. Settings → Pages → Source: `main` / root
-
-## Notes
-
-- This is a **structural + visual recreation** for learning / demo use.
-- Hero backgrounds use public Unsplash photos in a similar style (city / mobility / tech). Original Spiro product photography is copyrighted and is **not** copied.
-- Replace images in `images/` or update the CSS `background-image` URLs with your own assets when ready.
-
-Inspired by the public structure and brand colors of spironet.com.
+## Contact
++254 104 076 565 (Call & WhatsApp)
